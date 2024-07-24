@@ -1,0 +1,143 @@
+body{
+   /* background-color: aquamarine; */
+   font-family: "Plus Jakarta Sans", sans-serif !important;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+.container{
+   flex: 1;
+}
+
+/* NAVBAR */
+.navbar{
+   height:4rem;
+   background-color: white;
+}
+.nav-link{
+   color:#222 !important;
+}
+.btn-navbar{
+   border: none !important;
+   color:white !important;
+   margin-left: 1rem;
+}
+.fa-compass{
+   font-size: 2rem;
+   color: #FF5A5F;
+}
+
+/* FOOTER */
+footer{
+   display: flex;
+   background-color:#9FA6B2;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+   align-content: center;
+   padding: 0.5rem 0;
+}
+.f-links a{
+   text-decoration: none;
+   color:#222;
+   margin-right: 0.5rem;
+   text-align: center;
+}
+.f-links a:hover{
+   text-decoration: underline;
+}
+.f-socials, .f-info, .f-links{
+   width:100%;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   height:1.8rem;
+   flex-wrap: wrap;
+}
+.f-info{
+   color:#222;
+}
+.f-socials i{
+   margin-right: 1.1rem;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.2rem;
+   cursor: pointer;
+}
+.f-socials i:hover{
+   color: white;
+}
+
+/* CARDS */
+.listing-card{
+   border:none !important;
+   margin-bottom: 2rem;
+   transition: transform 0.3s ease !important;
+}
+.listing-card:hover{
+   transform: scale(1.005) !important;
+   border-radius: 1rem !important;
+}
+.card-img-top{
+   border-radius: 1rem !important;
+   width:100% !important;
+   object-fit: cover !important;
+}
+.card-body-main{
+   padding:0.3rem 0 0 0 !important;
+}
+.card-text{
+   font-weight: 400 !important;
+}
+.anchor-list{
+   text-decoration: none;
+}
+.card-img-overlay{
+   opacity:0;
+}
+.card-img-overlay:hover{
+   background-color: white;
+   opacity:0.2;
+}
+
+
+/* New Page*/
+.add-btn{
+   background-color: #FF5A5F !important;
+   border: none !important;
+   color:white !important;
+}
+
+/* Edit Page*/
+.edit-btn{
+   background-color: #FF5A5F !important;
+   border: none !important;
+   color:white !important;
+}
+
+
+/* Show Page */
+.show-img{
+   height: 36vh;
+}
+.show-btns{
+   display: flex;
+}
+.delete-btn{
+   border: none !important;
+}
+.card-body{
+   padding: 1rem 0 !important;
+}
+.listing-card-show{
+   border:none !important;
+}
+
+
+/* map */
+#map { 
+   height:400px;
+   width:100%;
+}
